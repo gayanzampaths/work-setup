@@ -1,0 +1,12 @@
+# install StarShip
+curl -sS https://starship.rs/install.sh | sh
+
+# neard fonts
+https://www.nerdfonts.com/font-downloads
+
+# Add the following to the end of ~/.zshrc to enable starship on zsh
+eval "$(starship init zsh)"
+
+# apply pastel-line preset
+copy pastel-powerline to HOME/.config/ directory
+starship preset pastel-powerline -o ~/.config/starship.toml
